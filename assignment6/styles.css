@@ -1,0 +1,157 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+.intro,
+.projects,
+.contact-form {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.profile-pic {
+  width: 160px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background: #f0f8ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 6px solid #4b6cb7;
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #4b6cb7;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #4b6cb7;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(to right, #30cfd0, #330867);
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #182848;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  font-size: 14px;
+  border-top: 4px solid #4b6cb7;
+}
+
+.gender-options {
+  display: flex;
+  gap: 30px;
+  margin: 10px 0 20px 0;
+}
+
+.gender-options label,
+.like-section label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.like-section {
+  margin: 20px 0;
+}

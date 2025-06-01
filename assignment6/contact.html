@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <title>კონტაქტი</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>დამიკავშირდით</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">მთავარი</a></li>
+        <li><a href="projects.html">პროექტები</a></li>
+        <li><a href="contact.html">კონტაქტი</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-form">
+    <form action="#" method="post">
+      <label for="name">სახელი:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">ელ.ფოსტა:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label>სქესი:</label>
+<div class="gender-options">
+  <label><input type="radio" id="male" name="gender" value="male" /> მამრობითი</label>
+  <label><input type="radio" id="female" name="gender" value="female" /> მდედრობითი</label>
+</div>
+
+
+      <div class="like-section">
+  <label><input type="checkbox" id="subscribe" name="like_projects" /> მოგწონთ ჩემი პროექტები?</label>
+</div>
+
+
+      <label for="message">შეტყობინება:</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit" class="submit-btn">გაგზავნა</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>გმადლობთ, რომ დამიკავშირდით!</p>
+  </footer>
+</body>
+</html>
